@@ -1,4 +1,8 @@
 # Customer Churn Analysis & Prediction
+## 📊 Dashboard Preview
+
+![Customer Churn Dashboard](Dashboard.png)
+
 ##  Project Overview
 
 This project addresses a critical business question: What factors contribute to customer churn, and how can we predict and mitigate it? By analyzing customer data, we aim to identify patterns and predictors of churn in a subscription-based business model.
