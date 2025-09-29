@@ -11,25 +11,25 @@ Utilizing machine learning techniques, we develop a predictive model to estimate
 
 ## Key Business Metrics Analyzed
 
-Churn Rate: The percentage of customers who leave within a given time period.
+-> Churn Rate: The percentage of customers who leave within a given time period.
 
-Customer Lifetime Value (CLTV): The predicted net profit attributed to the entire future relationship with a customer.
+-> Customer Lifetime Value (CLTV): The predicted net profit attributed to the entire future relationship with a customer.
 
-Monthly Recurring Revenue (MRR): The predictable revenue generated from customers on a monthly basis.
+-> Monthly Recurring Revenue (MRR): The predictable revenue generated from customers on a monthly basis.
 
-Customer Acquisition Cost (CAC): The cost associated with acquiring a new customer.
+-> Customer Acquisition Cost (CAC): The cost associated with acquiring a new customer.
 
-Tenure: The duration a customer has been with the company.
+-> Tenure: The duration a customer has been with the company.
 
 ## Insights Across Segments
 
-Contract Type: Customers on month-to-month contracts exhibit higher churn rates compared to those on annual contracts.
+-> Contract Type: Customers on month-to-month contracts exhibit higher churn rates compared to those on annual contracts.
 
-Payment Method: Customers using electronic check payments are more likely to churn.
+-> Payment Method: Customers using electronic check payments are more likely to churn.
 
-Tech Support: Lack of tech support correlates with increased churn.
+-> Tech Support: Lack of tech support correlates with increased churn.
 
-Internet Service: Fiber optic users show a higher propensity to churn.
+-> Internet Service: Fiber optic users show a higher propensity to churn.
 
 ## Predictive Modeling Approach
 
@@ -37,20 +37,20 @@ A logistic regression model is employed to predict churn likelihood. The model i
 
 ## Dashboard Features
 
-Churn Rate Visualization: Displays churn rate over time and by customer segments.
+-> Churn Rate Visualization: Displays churn rate over time and by customer segments.
 
-Customer Segmentation: Breaks down churn by demographics and service usage.
+-> Customer Segmentation: Breaks down churn by demographics and service usage.
 
-Predictive Insights: Highlights customers at high risk of churning.
+-> Predictive Insights: Highlights customers at high risk of churning.
 
-Revenue Impact: Estimates potential revenue loss due to churn.
+-> Revenue Impact: Estimates potential revenue loss due to churn.
 
 ## Recommendations for Business Teams
 
-Enhance Customer Support: Invest in robust tech support to reduce churn.
+-> Enhance Customer Support: Invest in robust tech support to reduce churn.
 
-Review Pricing Strategies: Evaluate the impact of payment methods on churn and consider offering incentives for preferred payment options.
+-> Review Pricing Strategies: Evaluate the impact of payment methods on churn and consider offering incentives for preferred payment options.
 
-Focus on High-Risk Segments: Implement targeted retention strategies for customers identified as high-risk by the predictive model.
+-> Focus on High-Risk Segments: Implement targeted retention strategies for customers identified as high-risk by the predictive model.
 
-Monitor Contract Types: Encourage customers to transition from month-to-month to longer-term contracts to improve retention.
+-> Monitor Contract Types: Encourage customers to transition from month-to-month to longer-term contracts to improve retention.
