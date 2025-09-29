@@ -1,5 +1,5 @@
 # Customer Churn Analysis & Prediction
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 ![Customer Churn Dashboard](Dashboard.png)
 
