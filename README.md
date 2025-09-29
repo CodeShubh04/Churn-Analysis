@@ -1,112 +1,52 @@
-# 📊 Customer Churn Analysis & Prediction
+# Customer Churn Analysis & Prediction
+##  Project Overview
 
-This project focuses on analyzing and predicting customer churn behavior using machine learning techniques, followed by an interactive dashboard for business insights.
+This project addresses a critical business question: What factors contribute to customer churn, and how can we predict and mitigate it? By analyzing customer data, we aim to identify patterns and predictors of churn in a subscription-based business model.
 
-## 🧩 Project Overview
+Utilizing machine learning techniques, we develop a predictive model to estimate the likelihood of a customer churning. An interactive dashboard is also created to visualize key metrics and insights, facilitating data-driven decision-making.
 
-Customer churn is a critical metric for subscription-based businesses. This project aims to:
+## Key Business Metrics Analyzed
 
-* Identify key drivers behind customer churn.
-* Predict the likelihood of churn using classification models.
-* Provide visual insights through a comprehensive dashboard.
+Churn Rate: The percentage of customers who leave within a given time period.
 
----
+Customer Lifetime Value (CLTV): The predicted net profit attributed to the entire future relationship with a customer.
 
-## 📁 Project Structure
+Monthly Recurring Revenue (MRR): The predictable revenue generated from customers on a monthly basis.
 
-```
-📦 Churn-Analysis-Project
-├── 📊 Churn Analysis.ipynb          # Main analysis and machine learning pipeline
-├── 🧹 Analysis.ipynb                # Data cleaning and preprocessing
-├── 🧠 PCA vs LDA.ipynb              # Dimensionality reduction comparison (PCA vs LDA)
-├── 📈 Churn Analysis.pbix     # Final dashboard preview
-├── README.md                       # Project documentation
-```
+Customer Acquisition Cost (CAC): The cost associated with acquiring a new customer.
 
----
+Tenure: The duration a customer has been with the company.
 
-## 🚀 Workflow
+## Insights Across Segments
 
-### 1. Data Cleaning and Preparation
+Contract Type: Customers on month-to-month contracts exhibit higher churn rates compared to those on annual contracts.
 
-Performed in `Analysis.ipynb`:
+Payment Method: Customers using electronic check payments are more likely to churn.
 
-* Handled missing values and outliers.
-* Encoded categorical variables.
-* Standardized numerical features.
+Tech Support: Lack of tech support correlates with increased churn.
 
-### 2. Exploratory Data Analysis (EDA)
+Internet Service: Fiber optic users show a higher propensity to churn.
 
-Performed in `Churn Analysis.ipynb`:
+## Predictive Modeling Approach
 
-* Uncovered churn patterns across age, gender, tenure, internet type, contract type, and services used.
-* Key Insights:
+A logistic regression model is employed to predict churn likelihood. The model is trained on customer demographics, account information, and service usage patterns. Key features influencing churn include tenure, contract type, payment method, and tech support.
 
-  * Highest churn rate among month-to-month contracts (46.5%).
-  * Fiber optic users show a churn rate of 41.1%.
-  * States like Jammu & Kashmir have the highest churn (57.2%).
+## Dashboard Features
 
-### 3. Dimensionality Reduction
+Churn Rate Visualization: Displays churn rate over time and by customer segments.
 
-Explored in `PCA vs LDA.ipynb`:
+Customer Segmentation: Breaks down churn by demographics and service usage.
 
-* Compared PCA and LDA for reducing feature space.
-* Used for better model interpretability and performance optimization.
+Predictive Insights: Highlights customers at high risk of churning.
 
-### 4. Machine Learning Models
+Revenue Impact: Estimates potential revenue loss due to churn.
 
-Built in `Churn Analysis.ipynb`:
+## Recommendations for Business Teams
 
-* Models Used: Logistic Regression, Decision Tree, Random Forest, etc.
-* Evaluated using accuracy, precision, recall, and F1-score.
+Enhance Customer Support: Invest in robust tech support to reduce churn.
 
-### 5. Interactive Dashboard
+Review Pricing Strategies: Evaluate the impact of payment methods on churn and consider offering incentives for preferred payment options.
 
-Created using Power BI (preview shown in `Churn Analysis.pbix`):
+Focus on High-Risk Segments: Implement targeted retention strategies for customers identified as high-risk by the predictive model.
 
-* Segmented by demographics, payment methods, contract types, and services.
-* Visualizes key churn rates and total customers.
-
----
-
-## 📊 Dashboard Highlights
-
-* **Churn Rate**: 27.0%
-* **Total Customers**: 6,418
-* **Top Churn Factors**:
-
-  * Competitor (most common churn reason)
-  * Fiber Optic Internet
-  * Month-to-Month Contract
-  * Mailed Check payment method
-
----
-
-## 💡 Key Learnings
-
-* Data cleaning has a strong influence on prediction performance.
-* LDA can outperform PCA when class separability is important.
-* Power BI enables accessible storytelling with complex data.
-
----
-
-## 🛠️ Tech Stack
-
-* **Languages**: Python
-* **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-* **Visualization**: Power BI
-* **Modeling**: Logistic Regression
-* **Dimensionality Reduction**: PCA, LDA
-
----
-
-## 📎 How to Run
-
-1. Clone the repo:
-   `git clone https://github.com/your-username/churn-analysis.git`
-
-2. Run notebooks in Jupyter or VS Code.
-
-3. Open the dashboard using Power BI Desktop.
-
----
+Monitor Contract Types: Encourage customers to transition from month-to-month to longer-term contracts to improve retention.
